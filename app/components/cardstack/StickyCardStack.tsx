@@ -18,9 +18,8 @@ export default function StickyCardStack({
   index,
   color,
 }: StickyCardProps) {
-  console.log(index);
   return (
-    <div className="h-dvh flex items-center justify-center sticky top-0 px-8">
+    <div className="h-[400px] flex items-center justify-center sticky top-62 px-8">
       <div
         className="w-full h-[400px] relative rounded-2xl shadow-sm p-4 flex justify-between"
         style={{
